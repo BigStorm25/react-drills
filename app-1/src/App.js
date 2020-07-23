@@ -15,11 +15,10 @@ class App extends Component {
   }
   render(){
     return (
-    <div className="App">
+    <div className='App'>
       <input onChange={e => this.handleChange(e.target.value)}/>
       <p>{this.state.text}</p>
     </div>)
-    
     }  
 }
 

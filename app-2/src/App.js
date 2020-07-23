@@ -12,7 +12,6 @@ class App extends Component {
     const sportsILike = this.state.sports.map((sport, index) => {
       return <h2 key={index}>{sport}</h2>
     })
-
     return <div className='App'>{sportsILike}</div>
   }
 }
